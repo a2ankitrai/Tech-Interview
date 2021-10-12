@@ -56,6 +56,7 @@ const config = {
             label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          /* {type: 'doc', docId: 'dsa', label: 'DSA', position: 'left'}, */
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -111,6 +112,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['java'],
       },
     }),
 };
