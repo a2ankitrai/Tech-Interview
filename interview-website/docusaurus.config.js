@@ -7,8 +7,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Tech Interview',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  tagline: 'Interview Preparation',
+  url: 'https://tech-interview.ankitrai.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -53,12 +53,11 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Start here',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          /* {type: 'doc', docId: 'dsa', label: 'DSA', position: 'left'}, */
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/a2ankitrai',
             label: 'GitHub',
             position: 'right',
           },
@@ -71,7 +70,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Start here',
                 to: '/docs/intro',
               },
             ],
@@ -102,12 +101,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/a2ankitrai',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Ankit Rai, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Ankit Rai.`,
       },
       prism: {
         theme: lightCodeTheme,
