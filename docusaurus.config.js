@@ -9,7 +9,7 @@ const config = {
   title: 'Techno Crack',
   tagline: 'Technical Interview Preparation',
   url: 'https://technocrack.ankitrai.com',
-  baseUrl: '/',
+  baseUrl: '/tech-interview/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/target.ico',
