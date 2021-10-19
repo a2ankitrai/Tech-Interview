@@ -5,7 +5,7 @@ tags:
   - Easy
 ---
 
-#   Valid Anagram
+# Valid Anagram
 
 Given two strings s and t, return true if t is an anagram of s, and false otherwise.
 
@@ -28,13 +28,13 @@ Constraints:
 - `1 <= s.length, t.length <= 5 * 104`
 - `s` and `t` consist of lowercase English letters.
 
-# Approach 1
+## Approach 1
 
 - Create a character array for both the strings of size 26
 - Fill the arrays value based on each character in the strings
 - Compare the characters with each for equality
 
-## Solution
+### Solution
 
 ```java
 class Solution {
@@ -57,14 +57,14 @@ class Solution {
 }
 ```
 
-# Approach 2
+## Approach 2
 
 - Use a HashMap to fill the values for the first string
   - key : character, value : number of times occurrence
 - for second string, keep on decrementing the value if there is matching key
 - Check if the HashMap is empty or not
 
-## Solution
+### Solution
 
 ```java
 class Solution {

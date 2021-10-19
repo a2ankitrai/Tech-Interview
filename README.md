@@ -1,3 +1,3 @@
-# tech-interview
+# Techno Crack
 
-Tech Interview
+Tech Interview Preparation
