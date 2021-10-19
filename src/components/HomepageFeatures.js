@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'System Design',
-    Svg: require('../../static/img/system-design.svg').default,
+    Svg: require('../../static/img/sd-2.svg').default,
     description: (
       <>
         System Design
